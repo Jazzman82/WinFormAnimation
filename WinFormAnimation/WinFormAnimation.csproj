@@ -20,7 +20,7 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>1.7.0.0</PackageVersion>
+    <PackageVersion>2.0.0.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Icon.png">
