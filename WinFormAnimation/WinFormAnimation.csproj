@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net4</TargetFrameworks>
     <PackageId>WinFormAnimation</PackageId>
-    <Version>1.6.0.4</Version>
+    <Version>2.0.0.0</Version>
     <Authors>Soroush Falahati</Authors>
     <Description>A simple library for animating controls/values in .Net using key-frames.</Description>
     <PackageLicenseUrl>https://github.com/falahati/WinFormAnimation/blob/master/LICENSE</PackageLicenseUrl>
@@ -17,13 +16,12 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Title>Key-Frame Based Animation Library (.Net 4+)</Title>
     <AssemblyOriginatorKeyFile>OpenSourceStrongNameSignKey.pfx</AssemblyOriginatorKeyFile>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>1.7.0.0</PackageVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference PrivateAssets="all" Include="MSBump" Version="2.3.2">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.png">
       <Pack>true</Pack>
